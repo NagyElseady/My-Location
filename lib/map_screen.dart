@@ -110,16 +110,6 @@ class _MapScreenState extends State<MapScreen> {
         icon: BitmapDescriptor.defaultMarker,
       ));
     });
-
-    // تخزين الإحداثيات في Firebase Firestore
-    // try {
-    //   await FirebaseFirestore.instance.collection('coordinates').add({
-    //     'latitude': tappedPoint.latitude,
-    //     'longitude': tappedPoint.longitude
-    //   });
-    // } catch (e) {
-    //   print('Error adding coordinates to Firestore: $e');
-    // }
   }
 
   void _showLocations(List<LocationItem> locations) {
