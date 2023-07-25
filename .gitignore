@@ -47,3 +47,7 @@ google_maps_api.xml
 google-services.json
 firebase_options.dart
 GoogleService-Info.plist
+firebase_app_id_file.json
+Info.plist
+project.pbxproj
+MainMenu.xib
